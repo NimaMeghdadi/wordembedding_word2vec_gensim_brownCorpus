@@ -2,8 +2,7 @@ import gensim
 import logging
 from nltk.corpus import brown
 
-# https://radimrehurek.com/gensim/models/word2vec.html
-# https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html
+model = gensim.models.Word2Vec.load("./tmp/brown_model/word2vec.model")
 logging.basicConfig(
     format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 sentences = brown.sents()
@@ -20,4 +19,8 @@ model = gensim.models.Word2Vec(
     epochs=1,
     sg=1,  # sg=1 ->skip-gram
 )
-model.save("word2vec.model")
+model.save("./tmp/brown_model/word2vec.model")
+
+# model.wv.evaluate_word_analogies("./evaluation/win353.csv")
+
+model.wv.evaluate_word_pairs('./evaluation/win353.csv')
