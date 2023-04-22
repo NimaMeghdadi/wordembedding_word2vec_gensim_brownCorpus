@@ -12,4 +12,6 @@ https://vecto.space/projects/BATS
 
 https://www.kaggle.com/code/jeffd23/visualizing-word-vectors-with-t-sne/notebook
 
+https://medium.com/analytics-vidhya/basics-of-using-pre-trained-glove-vectors-in-python-d38905f356db
+
 python version: 3.10.9
