@@ -1,6 +1,6 @@
 # wordembedding_word2vec-gensim-_brownCorpus
 
-links:
+This site was built using [Gensim](https://pages.github.com/) document page .
 
 https://radimrehurek.com/gensim/models/word2vec.html
 
