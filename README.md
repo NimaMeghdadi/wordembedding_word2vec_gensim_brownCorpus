@@ -1,29 +1,48 @@
-# wordembedding_word2vec-gensim-_brownCorpus
+# Word Embedding
 
-This site was built using [Gensim](https://pages.github.com/) document page .
+In this project we are going to embed word with 2 main model [Word2vec](https://www.tensorflow.org/tutorials/text/word2vec) and [Glove](https://nlp.stanford.edu/projects/glove/)
 
-https://radimrehurek.com/gensim/models/word2vec.html
+## Getting Started
 
-https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html
+These instructions will give you a copy of the project up and running on
+your local machine for development and testing purposes.
 
-https://github.com/tomcohen13/BERT
+### Prerequisites
 
-https://vecto.space/projects/BATS
+What things you need to install the software and how to install them
+- gensim Version: 4.3.0
+- seaborn Version: 0.12.2
 
-https://www.kaggle.com/code/jeffd23/visualizing-word-vectors-with-t-sne/notebook
+### Installation
 
-https://medium.com/analytics-vidhya/basics-of-using-pre-trained-glove-vectors-in-python-d38905f356db
+Windows:
 
-python version: 3.10.9
+    pip install gensim
 
-pip install gensim Version: 4.3.0
+    pip install nltk
 
-pip install nltk Version: 3.8.1
+    pip install numpy
 
-pip install numpy Version: 1.24.2
+    pip install plotly
 
-pip install plotly Version: 5.14.1
+    pip install seaborn
 
-pip install seaborn Version: 0.12.2
+    pip install scipy
 
-pip install scipy Version: 1.10.1
+## Datases and Models
+[glove.6B.zip](https://downloads.cs.stanford.edu/nlp/data/glove.6B.zip)
+
+[GoogleNews-vectors-negative300](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/view?resourcekey=0-wjGZdNAUop6WykTtMip30g)
+## Aditional links
+
+[Gensim word2vec embedding document](https://radimrehurek.com/gensim/models/word2vec.html)
+
+[Gensim word2vec model document](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html)
+
+[Evaluation example](https://github.com/tomcohen13/BERT)
+
+[Bat evaluation](https://vecto.space/projects/BATS)
+
+[Visualizing Word Vectors with t-SNE](https://www.kaggle.com/code/jeffd23/visualizing-word-vectors-with-t-sne/notebook)
+
+[Visualize pre-trained GloVe Vectors in Python](https://medium.com/analytics-vidhya/basics-of-using-pre-trained-glove-vectors-in-python-d38905f356db)
