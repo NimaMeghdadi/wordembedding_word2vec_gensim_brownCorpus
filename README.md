@@ -29,6 +29,10 @@ Windows:
 
     pip install scipy
 
+for installing dependecies:
+
+    pip install-r requirements.txt
+
 ## Datases and Models
 [glove.6B.zip](https://downloads.cs.stanford.edu/nlp/data/glove.6B.zip)
 
